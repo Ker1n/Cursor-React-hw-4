@@ -102,7 +102,7 @@ class SignUp extends Component {
                     <div className = "checkBox-text">I want to receive inspiration, marketing promotions and updates via email.</div>
                     </div>
                     <button className = "btn" type="button" onClick={this.completionOfSignUp} ><NavLink to='/Cursor-React-hw-4/' >Sign Up</NavLink></button>
-                    <div className = "entrancePage-nav"><span><NavLink to="reset">Forgot password?</NavLink></span><span><NavLink to='/'>Do have an account? Sign In</NavLink></span></div>
+                    <div className = "entrancePage-nav"><span><NavLink to="reset">Forgot password?</NavLink></span><span><NavLink to='/Cursor-React-hw-4/'>Do have an account? Sign In</NavLink></span></div>
             </div>
         </div>
         )
